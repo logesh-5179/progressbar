@@ -14,9 +14,12 @@ body {
     background-color: yellow;
     
 }
+
 .box {
     display: flex;
-    width: 100%;
+    width: 500px;
+    margin-top: 10px;
+    height: 200px;
     background-color: yellow;
     max-width: 600px;
     margin-bottom: 20px;
@@ -31,7 +34,8 @@ body {
     background-color: #e9ecef;
     border: 1px solid #29292a;
     border-radius: 100%;
-    transition: background-color 0.3s;
+   margin-left: 30px;
+   border: none;
 }
 .active {
     background-color: #0dfd5d;
